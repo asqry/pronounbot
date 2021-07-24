@@ -1,0 +1,35 @@
+{
+  "name": "pronounsbot",
+  "version": "1.0.0",
+  "description": "A Discord bot that respects pronouns, as they should 😤",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon . --ignore \"*.json\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asqry/pronounbot.git"
+  },
+  "keywords": [
+    "discord",
+    "pronouns",
+    "lgbt",
+    "lgbtqia",
+    "bot",
+    "discordjs",
+    "discordbot"
+  ],
+  "author": "Asqry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asqry/pronounbot/issues"
+  },
+  "homepage": "https://github.com/asqry/pronounbot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "mongoose": "^5.12.7",
+    "path": "^0.12.7"
+  }
+}
